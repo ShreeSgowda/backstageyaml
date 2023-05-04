@@ -23,8 +23,8 @@ paths:
     spec:
       type: github
       lifecycle: experimental
-      owner: <github-owner>
-      repository: <github-repository>
+      owner: ShreeSgowda
+      repository: backstageyaml
       path: config.yaml
         '200':
           description: OK
