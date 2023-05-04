@@ -1,0 +1,30 @@
+swagger: '2.0'
+info:
+  version: 1.0.0
+  title: Employee API
+  description: Information About Softtek Employee
+basePath: /api
+paths:
+  /hello:
+    get:
+      summary: Test endpoint
+      responses:
+        '200':
+          description: OK
+  /test:
+    get:
+      summary: Test method
+      responses:components:
+  - kind: API
+    metadata:
+      name: config
+      description: Employee API Documentation
+      lifecycle: experimental
+    spec:
+      type: github
+      lifecycle: experimental
+      owner: <github-owner>
+      repository: <github-repository>
+      path: config.yaml
+        '200':
+          description: OK
